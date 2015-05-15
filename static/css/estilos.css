@@ -1,3 +1,193 @@
-header{
-	background: black;
+/*Codigo de Utilidades*/
+.u-title
+{
+	color: #00ccff;
+	border-bottom: 2px dashed #00ccff;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: .5em;
+	font-size: 2em;
+
+}
+
+/*Codigo para el Menu de Navegacion*/
+.MainMenu
+{
+	background: #00ccff;
+	/*0a8ecd*/
+	text-align: center;
+	/*height: 3.75em;*/
+	position: fixed;
+	/*left: 0;
+	right: 0;*/
+	width: 100%;
+	top: 0;
+}
+.MainMenu-list
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item
+{
+	display: inline-block;
+	margin: 0 0em 0 0;
+}
+.MainMenu-link
+{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin-right: 0em;
+	display: block;
+	padding: 0.5em .5em;
+	width: 100px;
+	margin: 0.4em 0.2em;
+}
+.MainMenu-link:hover
+{
+	color: #0a8ecd;
+	background-color: white;
+	border-radius: 2em;
+}
+
+/*Codigo para el Header*/
+.Header
+{
+	margin-top: 3em;
+	background-image: url('../img/back.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1em 0;
+}
+.Header-image
+{
+	border: 5px solid white;
+	border-radius: 50%
+}
+.Header-name,
+.Header-link{
+	color: white;
+}
+.Header-imageContainer{
+	margin: 0;
+}
+.Header-link
+{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Header-name
+{
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+/*Codigo para seccion de Perfil*/
+.Profile{
+	text-align: center;
+}
+.Profile-link
+{
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding: .4em .5em;
+	margin: 0.1em 0.5em;
+	border-radius: 2em;
+	display: inline-block;
+	width: 180px;
+}
+.Profile-link:hover
+{
+	color: white;
+	background-color: #00ccff;
+}
+.Profile-description
+{
+	padding: 0 5em;
+	text-align: justify;
+}
+.Profile-description:first-letter
+{
+	font-size: 2em
+}
+.Work
+{
+	margin-top: 2em;
+	text-align: center;
+}
+.Work-item
+{
+	display: inline-block;
+	margin-right: 2em;
+	margin-bottom: 2em;
+}
+.Work-imageContainer
+{
+	margin: 0;
+}
+.Work-description
+{
+	color: #515151;
+	font-size: 1.1em;
+	font-style: italic;
+}
+.Work-description:first-letter
+{
+	color: #00ccff;
+	font-size: 1.5em;
+}
+/*Footer*/
+.Footer
+{
+	background-image: url('../img/footer.jpg');
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+	padding: 2em;
+	text-align: center;
+}
+.Footer-left
+{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	vertical-align: top;
+}
+.Footer-form
+{
+	text-align: center;
+	display: inline-block;
+}
+.Footer-title{
+	color: white;
+	font-size: 1.5em;
+}
+.Footer-formInput,
+.Footer-textarea{
+	background: white;
+	border: none;
+	display: block;
+	border-radius: 1.5em;
+	padding: .5em;
+	margin: 0 auto 1em;
+}
+.Footer-textarea
+{
+	resize: none;
+}
+.Footer-button
+{
+	background-color: orange;
+	color: white;
+	border-radius: 1em;
+	padding: .5em 1em;
+	border: none;
 }
